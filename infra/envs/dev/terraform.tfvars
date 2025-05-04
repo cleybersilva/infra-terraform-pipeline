@@ -1,1 +1,1 @@
-bucket_name="dev-us-east-1-buildrun-video-pipeline"
+bucket_name="dev-us-east-1-cleybersilva-dev-video-pipeline"
