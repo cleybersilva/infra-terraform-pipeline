@@ -36,7 +36,7 @@ Para um maior entendimento do código deste repositório, [assista nosso vídeo 
 
 [Conheça mais sobre o nosso trabalho 😀](https://www.instagram.com/profcleybersilva/)
 
-SRE Engineer / AI Scientists
+SRE Engineer / AI Scientists - Big Data
 
 ### Referências
 
