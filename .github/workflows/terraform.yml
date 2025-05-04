@@ -42,11 +42,11 @@ jobs:
           role-session-name: GitHub_to_AWS_via_FederatedOIDC
           aws-region: ${{ inputs.aws-region }}
 
-      - name: Read destroy configuration
-        id: read-destroy-config
-        run: |
-          DESTROY="$(jq -r '.${{ inputs.environment }}' ./infra/destroy_config.json)"
-          echo "destroy=$(echo $DESTROY)" >> $GITHUB_OUTPUT
+    #  - name: Read destroy configuration
+     #   id: read-destroy-config
+      #  run: |
+      #    DESTROY="$(jq -r '.${{ inputs.environment }}' ./infra/destroy_config.json)"
+       #   echo "destroy=$(echo $DESTROY)" >> $GITHUB_OUTPUT
 
       - name: Terraform Init
         run: |
